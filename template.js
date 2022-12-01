@@ -7,6 +7,7 @@ const solveProblem = (data) => {
 	// Parse data
 
 	const lines = data.split("\n").slice(0, -1);
+	const values = lines.map(line => line.split(",").map(x => Number(x)))
 
 	// Solve problem
 };

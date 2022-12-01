@@ -1,4 +1,4 @@
-Advent of code 2022 in Javascript
+Advent of Code 2022 in Javascript
 ---------------------------------
 
 The code for day n is in the file `n.js`, the test input in the file

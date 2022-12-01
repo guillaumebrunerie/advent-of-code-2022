@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-day=$(date '+%d')
+day=$(date '+%-d')
 cp -n ./template.js $day.js
 touch $day-test.txt
 touch $day.txt
