@@ -1,4 +1,4 @@
-// Total duration: xx min
+// Total duration: xx min (rounded to the nearest minute)
 // Started at:     hh:mm
 // First star at:  hh:mm
 // Second star at: hh:mm
