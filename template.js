@@ -12,10 +12,12 @@ const solveProblem = (data) => {
 	// Part 1
 
 
+	console.log("");
 
 	// Part 2
 
 
+	console.log("");
 };
 
 
@@ -34,6 +36,5 @@ files.forEach(file => {
 	fs.readFile(`./${file}.txt`, "utf8", (_, data) => {
 		console.log(`Data from file ${file}.txt`);
 		solveProblem(data);
-		console.log("");
 	});
 });
