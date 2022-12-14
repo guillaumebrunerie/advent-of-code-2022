@@ -6,4 +6,4 @@ cp -n ./template.js $day.js
 touch $day-test.txt
 touch $day.txt
 
-node $day.js
+node --stack-size=100000 $day.js
