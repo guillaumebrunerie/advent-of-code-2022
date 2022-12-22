@@ -3,21 +3,13 @@
 // First star at:  20:08
 // Second star at: 22:18
 
-const keypress = async () => {
-  process.stdin.setRawMode(true)
-  return new Promise(resolve => process.stdin.once('data', () => {
-    process.stdin.setRawMode(false)
-    resolve()
-  }))
-}
-
 const solveProblem = async (data) => {
 	// Parse data
 
 	const [mapData, password] = data.slice(0, -1).split("\n\n");
 	const map = mapData.split("\n");
 
-	// Part 1
+	// Part 2
 
 	let row = 0;
 	let col = map[0].indexOf(".");
@@ -189,14 +181,9 @@ const solveProblem = async (data) => {
 			}
 			// console.log(num);
 		}
-		// await keypress();
 	}
 	// print();
 	console.log(1000 * (row + 1) + 4 * (col + 1) + dir);
-	console.log("");
-
-	// Part 2
-
 	console.log("");
 };
 
